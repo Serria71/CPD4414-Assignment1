@@ -18,7 +18,12 @@ public class CPD4414Assignment1TeamRawr {
         // TODO code application logic here
     }
     public static String stringPower(String name, int num) { 
-       return name;
+        if (name == "") {
+            return name;
+        }
+        else {
+            return "placeholder";
+        }
     }
        
 }
