@@ -82,6 +82,20 @@ public class CPD4414Assignment1TeamRawrTest {
         String expResult = "stringPowerstringPower";
         String result = CPD4414Assignment1TeamRawr.stringPower(name, num);
         assertEquals(expResult, result);
+    }
+    
+    @Test
+        public void  testBonusChallenge() {
+        System.out.println("stringPower");
+        String name = "a";
+        int num = (int)(Math.random() * (100 - 1) + 1);
+        String answer = "";
+        for (int x = 1; x <= num; x++) {
+            answer+= name;
+        }
+        String expResult = answer;
+        String result = CPD4414Assignment1TeamRawr.stringPower(name, num);
+        assertEquals(expResult, result);
         
         // TODO review the generated test code and remove the default call to fail.
     }
