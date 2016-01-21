@@ -54,5 +54,25 @@ public class CPD4414Assignment1TeamRawrTest {
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
     }
+    @Test
+    public void testLessThanOneShouldReturnNull() {
+        System.out.println("stringPower");
+        String name = "stringPower";
+        int num = 0;
+        String expResult = null;
+        String result = CPD4414Assignment1TeamRawr.stringPower(name, num);
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+    }
+    @Test
+    public void  testStringAndOneShouldReturnString() {
+        System.out.println("stringPower");
+        String name = "stringPower";
+        int num = 1;
+        String expResult = "stringPower";
+        String result = CPD4414Assignment1TeamRawr.stringPower(name, num);
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+    }
     
 }
