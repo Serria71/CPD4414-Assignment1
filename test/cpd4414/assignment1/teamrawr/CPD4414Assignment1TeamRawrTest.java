@@ -74,5 +74,16 @@ public class CPD4414Assignment1TeamRawrTest {
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
     }
+    @Test
+    public void  testStringAndTwoShouldReturnStringDoubled() {
+        System.out.println("stringPower");
+        String name = "stringPower";
+        int num = 2;
+        String expResult = "stringPowerstringPower";
+        String result = CPD4414Assignment1TeamRawr.stringPower(name, num);
+        assertEquals(expResult, result);
+        
+        // TODO review the generated test code and remove the default call to fail.
+    }
     
 }
