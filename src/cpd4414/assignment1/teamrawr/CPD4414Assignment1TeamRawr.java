@@ -21,6 +21,9 @@ public class CPD4414Assignment1TeamRawr {
         if (name == "") {
             return name;
         }
+        else if (num < 1){
+            return null;
+        }
         else {
             return "placeholder";
         }
