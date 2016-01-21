@@ -25,7 +25,11 @@ public class CPD4414Assignment1TeamRawr {
             return null;
         }
         else {
-            return name;
+            String str = "";
+            for (int x = 1; x <= num; x++) {
+                str+= name;
+            }
+            return str;
         }
     }
        
