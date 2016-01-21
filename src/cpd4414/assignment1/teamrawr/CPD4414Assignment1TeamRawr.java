@@ -25,7 +25,7 @@ public class CPD4414Assignment1TeamRawr {
             return null;
         }
         else {
-            return "placeholder";
+            return name;
         }
     }
        
